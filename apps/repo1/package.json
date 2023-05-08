@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "next": "^13.4.1",
+    "next-connect": "^1.0.0",
+    "typescript": "^5.0.4"
+  }
+}
