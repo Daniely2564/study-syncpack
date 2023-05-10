@@ -22,7 +22,24 @@
     "resolutions",
     "scripts"
   ],
-  "sortFirst": ["name", "description", "version", "author"],
-  "source": ["package.json", "packages/*/package.json"],
-  "versionGroups": []
+  "sortFirst": [
+    "name",
+    "description",
+    "version",
+    "author"
+  ],
+  "source": [
+    "apps/*/package.json"
+  ],
+  "versionGroups": [
+    {
+      "label": "Ignore This Lodash",
+      "packages": [
+        "**"
+      ],
+      "dependencies": [
+        "lodash"
+      ]
+    }
+  ]
 }
